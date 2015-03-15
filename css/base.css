@@ -1,16 +1,21 @@
 
 body {
-	margin: 5% 10% 0 10%;
+	margin: 0 10% 0 10%;
+	background-color: #FFE4E1;
 }
 /* BASELAYOUT: HEADER
 -------------------------------------------------------------- */
 div.header {
 	border: 1px solid red;
+	background-color: #D8BFD8;
 }
 div.header a {
 	color: black;
 	text-align: center;
 	text-decoration: none;
+}
+div.header a:hover {
+	color: #8A2BE2;
 }
 div.header nav > ul {
 	list-style: none;
@@ -19,6 +24,10 @@ div.header nav > ul {
 
 div.header nav > ul > li {
 	display: inline;
+}
+
+div.header nav > ul > li.active > a {
+	color: #8A2BE2;
 }
 div.header nav > ul > li > a  {
 	display: inline-block;
@@ -34,17 +43,42 @@ div.content {
 div.content .inner-article{
 	/*border: 1px solid orange;*/
 	float: left;
-	width: 60%;	
+	width: 72%;	
 }
 div.content .inner-sidebar{
 	/*border: 1px solid purple;*/
 	float: right;
-	width: 40%;
+	width: 28%;
 }
 
+div.block{
+	margin: 10px 0 10px 0;
+}
+
+div.blockheader{
+	text-align: center;
+	background-color: #D8BFD8;
+}
+
+div.blockheader h3{
+	margin: 0 0 0 0;
+}
+div.blockcontent{
+	background-color: #DDA0DD;
+}
+
+
+table td {
+  border: 1px solid black;
+}
+
+#adress{
+	text-align: center;
+}
 /* BASELAYOUT: FOOTER
 -------------------------------------------------------------- */
 div.footer {
+	background-color: #D8BFD8;
 	clear:both;
 	text-align: center;
 	border: 1px solid blue;
