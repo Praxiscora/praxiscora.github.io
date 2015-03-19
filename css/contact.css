@@ -1,7 +1,7 @@
 
 body {
 	margin: 0;
-	background-color: #fff;
+	background-color: #D3D3D3;
 }
 
 /* BASELAYOUT: HEADER
@@ -10,90 +10,95 @@ div.header {
 	width: 100%;
 	padding: 10px;
 	background-color: #fff;
-	background-image: url('../files/logopaedie-ludwig.jpg');
-	background-repeat: no-repeat;
-	background-size: 20%;	
-	background-position: left;
-	
+	position: relative;
 }
 
-nav {
-	background-color: lightblue;
-	text-decoration: none;
-	border-color: lightgrey;
+div.header a:hover {
+	color: #8A2BE2;
 }
-
-nav a:hover {
-	color: #fff;
+div.header-image {
+	position: absolute;
+	padding-left: 5%;
+	top: 0;
+	left: 0;
 }
-
+div.header-image img {
+	height: 134px;	
+}
 
 div.header-name {
-	color: grey;
+	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.5em;
 }
 
 
-nav ul {
+div.header nav > ul {
 	list-style: none;
-	font-size: 1em;
+	padding: 0;
 	text-align: center;
 }
-nav > ul > li {
+div.header nav > ul > li {
 	display: inline;
-
 }
-nav > ul > li:first-child a {
+div.header nav > ul > li:first-child a {
 	padding-left: 0;
 }
-nav > ul > li > a  {
+div.header nav > ul > li > a  {
 	display: inline-block;
 	padding-left: 10px;
 }
-nav > ul > li.active > a {
-	color: #fff;
+div.header nav > ul > li.active > a {
+	color: #8A2BE2;
 }
 
 
 /* BASELAYOUT: MAIN PAGE CONTENT
 -------------------------------------------------------------- */
-
+div.content {
+	margin: 0 8%;
+}
 div.content .inner-article{
-	padding-left: 10%;
 	float: left;
-	width: 45%;	
-	text-align: center;
-	color: grey;
+	width: 65%;	
 }
-
-
-div.block {
+div.group-image img{
+	width: 80%;
+	padding: 0 10%;
+}
+div.content .inner-sidebar{
 	float: right;
-	width: 25%;
-	background-color: lightblue;
-	margin-bottom: 5%;
-	color: black;
+	padding: 0 0 0 5%;
+	width: 30%;
 }
 
-.h {
+div.block{
+	margin: 10px 0 10px 0;
+}
+
+div.blockheader{
 	text-align: center;
-	font-weight: bold;
+	background-color: #D8BFD8;
+}
+
+div.blockheader h3{
+	margin: 0 0 0 0;
+}
+div.blockcontent{
+	background-color: #E6E6FA;
 }
 
 
-#adress {
+#adress{
 	text-align: center;
 }
 /* BASELAYOUT: FOOTER
 -------------------------------------------------------------- */
 div.footer {
-	background-color: lightblue;
+	background-color: #fff;
 	clear:both;
 	text-align: center;
 	line-height: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: grey;
 }
