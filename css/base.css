@@ -20,7 +20,7 @@ div.header {
 	text-decoration: none;
 }
 div.header-name h1{
-	color: grey;
+	color: black;
 	width: 60%;
 	margin: 2% 20%;
 
@@ -29,7 +29,6 @@ div.header-name h1{
 nav {
 	background-color: #5bc995;
 	text-decoration: none;
-	border-color: lightgrey;
 	padding:0.5em 0;
 }
 
@@ -39,7 +38,6 @@ nav a:hover {
 
 
 div.header-name {
-	color: grey;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5em;
@@ -62,7 +60,7 @@ nav > ul > li > a  {
 	display: inline-block;
 	padding-left: 10px;
 	text-decoration: none;
-	color: grey;
+	color: black;
 }
 nav > ul > li.active > a {
 	color: #fff;
@@ -168,7 +166,7 @@ div.footer {
 }
 .footer a {
 	text-decoration: none;
-	color: grey;
+	color: black;
 }
 .footer a:hover {
 	color: #fff;
