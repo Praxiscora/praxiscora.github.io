@@ -33,27 +33,66 @@ div.group-image {
 div.group-image img{
 	width: 100%;
 	vertical-align: top;
+	border-radius: 0 0 10px 10px;
 }
 
-div.part2 {
+.p1, .p2, .p3, .p4, .p5, .p6 {
+	width: 40%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #5bc995;
     border-radius: 10px 10px 10px 10px;
-	margin: 2% 0 2% 0;
-}
-div.photo {
-	margin: 0;
+	margin: 2% 4%;
 	padding: 0;
-	width: 20%;
+	float: left;
+}
+
+.p3, .p5 {
+	clear: left;
+}
+
+
+
+div.photo {
+	width: 0 5%;
 }
 
 div.photo img {
 	width: 100%;
+	height: auto;
+	border-radius: 10px 10px 0 0;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+ #small1 {
+ 	width: 84%;
+ 	height: auto;
+ }
+ #small2 {
+ 	width: 97%;
+ 	height: auto;
+ }
+
+div.w {
+	text-align: center;
+	margin: 0;
+	padding: 4%;
+	border-radius: 0 0 10px 10px;
+	background-color: #5bc995;
 }
 
-.w2 {
-	text-align: left;
+.w21, .w22, .w23, .w24, .w25, .w26 {
+	margin: 0;
 }
 
+.w22 {
+	padding-bottom: 3%;
+}
+.w24 {
+	padding-bottom: 17%;
+}
+.w25 {
+	padding-bottom: 12%;
+}
 

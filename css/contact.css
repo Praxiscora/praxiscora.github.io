@@ -12,10 +12,15 @@ div.content .inner-article{
 	color: black;
 }
 
-/*#container {
-	width: 70%;
-	margin: 0 15%;
-}*/
+.w {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+
+
+.footer {
+	margin-top: 70%;
+}
 
 
 
