@@ -64,11 +64,13 @@ div.content .inner-article{
 	padding-left: 5%;
 	float: left;
 	width: 70%;	
-	text-align: center;
-	color: grey;
+	color: black;
+	font-size: 0.75em;
 }
 
-
+.w {
+	font-weight: normal;
+}
 
 /*sidebar----------------------------------------------------*/
 div.box {
