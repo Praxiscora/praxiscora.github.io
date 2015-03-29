@@ -6,11 +6,7 @@
 /* BASELAYOUT: MAIN PAGE CONTENT
 -------------------------------------------------------------- */
 
-div.content .inner-article{
-	float: left;
-	width: 70%;	
-	color: black;
-}
+
 
 .w {
 	font-size: 0.75em;
@@ -22,6 +18,11 @@ div.content .inner-article{
 	margin-top: 70%;
 }
 
+
+@media (max-width: 768px) {
+	div.box {
+		margin-top: 65%;
+	}
 
 
 

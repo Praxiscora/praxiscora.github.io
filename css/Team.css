@@ -3,13 +3,6 @@
 /* BASELAYOUT: MAIN PAGE CONTENT
 -------------------------------------------------------------- */
 
-div.content .inner-article{
-	padding-left: 5%;
-	float: left;
-	width: 70%;	
-	text-align: center;
-	color: black;
-}
 div.part1 {
 	border-style: solid;
 	border-width: 1px;
@@ -85,14 +78,31 @@ div.w {
 .w21, .w22, .w23, .w24, .w25, .w26 {
 	margin: 0;
 }
-
+/*
 .w22 {
-	padding-bottom: 3%;
-}
+	padding-bottom: 1%;
+}*/
 .w24 {
 	padding-bottom: 17%;
 }
 .w25 {
-	padding-bottom: 12%;
+	padding-bottom: 11%;
 }
+
+
+
+
+@media (max-width: 768px) {
+	.p1, .p2, .p3, .p4, .p5, .p6 {
+		width: 70%;
+		margin: 5% 15%;
+	}
+}
+
+
+
+
+
+
+
 

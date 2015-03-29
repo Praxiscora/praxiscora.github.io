@@ -15,9 +15,23 @@ div.header {
 	background-size: 20%;	
 	background-position: left;
 	font-size: 1em;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	/*text-shadow: -4px -5px 3px #c0c0c0;*/
 }
 .header a {
 	text-decoration: none;
+
 }
 div.header-name h1{
 	color: black;
@@ -30,6 +44,7 @@ nav {
 	background-color: #5bc995;
 	text-decoration: none;
 	padding:0.5em 0;
+
 }
 
 nav a:hover {
@@ -71,9 +86,9 @@ nav > ul > li.active > a {
 -------------------------------------------------------------- */
 
 div.content .inner-article{
-	padding-left: 5%;
+	margin: 0 5%;
 	float: left;
-	width: 70%;	
+	width: 60%;	
 	color: black;
 }
 
@@ -171,3 +186,40 @@ div.footer {
 .footer a:hover {
 	color: #fff;
 }
+
+
+
+
+/* Media Queries
+-------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+	div.content .inner-article{
+		text-align: center;
+		width: 90%;
+		margin: 0 5%;
+	}
+	div.box {
+		width: 50%;
+		margin: 0 25%;
+	}
+}
+
+
+
+/*
+@media (max-width: 480px) {
+	body {
+		background-color: darkred;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	body {
+		background-color: seagreen;
+	}
+
+}*/
+
+
+
+

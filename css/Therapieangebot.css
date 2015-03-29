@@ -4,16 +4,6 @@
 /* BASELAYOUT: MAIN PAGE CONTENT
 -------------------------------------------------------------- */
 
-div.content .inner-article{
-	padding-left: 5%;
-	float: left;
-	width: 70%;	
-	color: black;
-}
 
-.postheader {
-	font-size: 1.5em;
-	font-weight: bold;
-}
 
 
