@@ -36,11 +36,12 @@ div.group-image img{
 	-webkit-flex-wrap: wrap;
 }
 .p1, .p2, .p3, .p4, .p5, .p6 {
-	width: 45%;
+	width: 900px;
+	height: 505px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #5bc995;
-    border-radius: 10px 10px 10px 10px;
+    	border-radius: 10px 10px 10px 10px;
 	margin: 2% 0;
 	padding: 0;
 	/*background-color: #5bc995;*/
@@ -48,29 +49,25 @@ div.group-image img{
 
 
 div.photo {
-	width: 0 5%;
+	width: 450px;
 }
 
 div.photo img {
 	width: 100%;
 	height: auto;
-	border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 10px 10px;
 	padding: 0;
 	margin: 0;
 	vertical-align: top;
+	float: left;
+	margin-right: 50px;
 }
- #small1 {
- 	width: 85%;
- }
- #small2 {
- 	width: 97%;
- }
 
 div.w {
-	text-align: center;
+	text-align: left;
 	margin: 0;
 	padding: 4%;
-	border-radius: 0 0 10px 10px;
+	/*border-radius: 0 0 10px 10px;*/
 	/*background-color: #5bc995;*/
 }
 
