@@ -79,6 +79,10 @@ div.w {
 	padding-bottom:0; 
 }
 
+div.name {
+	font-weight: bold;
+}
+
 
 @media (max-width: 768px) {
 	.part2 {
