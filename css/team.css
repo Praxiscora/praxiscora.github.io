@@ -63,7 +63,7 @@ div.photo img {
 	margin-right: 50px;
 }
 
-div.w {
+div.person_desc {
 	text-align: left;
 	margin: 0;
 	padding: 4%;
@@ -71,15 +71,54 @@ div.w {
 	/*background-color: #5bc995;*/
 }
 
-.w21, .w22, .w23, .w24, .w25, .w26 {
+p.second_level {
 	margin: 0;
 	padding-bottom:0; 
 }
 
 div.name {
+	margin-top: 25px;
+	font-size: 16pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+p.core_area {
+	padding-left: 1em;
+}
+
+div.core_area {
 	font-weight: bold;
 }
 
+ul.core_area {
+	margin-top: 0px;
+	padding-left: 480px;
+}
+
+li.core_area {
+	margin-top: 2px;
+	padding-left: .3em;
+	text-indent: -.1em;
+}
+
+p.add_qualif {
+}
+
+div.add_qualif {
+	font-weight: bold;
+}
+
+ul.add_qualif {
+	margin-top: 0px;
+	padding-left: 480px;
+}
+
+li.add_qualif {
+	margin-top: 2px;
+	padding-left: .3em;
+	text-indent: -.1em;
+}
 
 @media (max-width: 768px) {
 	.part2 {
