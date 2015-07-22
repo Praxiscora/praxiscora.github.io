@@ -7,9 +7,9 @@ div.part1 {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #5bc995;
-    border-radius: 10px 10px 10px 10px;
-    padding: 0;
-    margin-top: 3%;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0;
+	margin-top: 3%;
 }
 .w1 {
 	text-align: center;
@@ -35,7 +35,8 @@ div.group-image img{
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap: wrap;
 }
-.p1, .p2, .p3, .p4, .p5, .p6 {
+
+.person {
 	width: 900px;
 	height: 505px;
 	border-style: solid;
@@ -66,18 +67,18 @@ div.photo img {
 div.person_desc {
 	text-align: left;
 	margin: 0;
+	margin-top: 75px;
 	padding: 4%;
-	/*border-radius: 0 0 10px 10px;*/
-	/*background-color: #5bc995;*/
+	border: 0px solid #ff0000;
 }
 
-p.second_level {
+p.person_desc {
 	margin: 0;
 	padding-bottom:0; 
 }
 
 div.name {
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 	font-size: 16pt;
 	font-weight: bold;
 	color: #000000;
@@ -125,8 +126,7 @@ li.add_qualif {
 		-webkit-flex-direction: column;
 
 	}
-	.p1, .p2, .p3, .p4, .p5, .p6 {
-
+	.person {
 		width: 50%;
 		margin: 5% 25%;
 	}
