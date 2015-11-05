@@ -23,7 +23,15 @@
 	div.box {
 		margin-top: 65%;
 	}
+}
 
+ul.approaches {
+	margin-top: -10px;
+}
 
+li.approach {
+	font-size: 0.75em;
+	font-weight: normal;
+}
 
 
